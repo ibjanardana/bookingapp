@@ -1,7 +1,3 @@
-import 'dart:ui';
-
-import 'package:flutter/cupertino.dart';
-
 import 'package:flutter/material.dart';
 
 class AppFont {
@@ -76,6 +72,26 @@ class AppFont {
         color: Colors.black,
       );
   static TextStyle get buttonSmall => const TextStyle(
+        fontSize: 12,
+        fontWeight: FontWeight.w600,
+        color: Colors.black,
+      );
+  static TextStyle get componentLarge => const TextStyle(
+        fontSize: 16,
+        fontWeight: FontWeight.w600,
+        color: Colors.black,
+      );
+  static TextStyle get componentMediumBold => const TextStyle(
+        fontSize: 14,
+        fontWeight: FontWeight.w600,
+        color: Colors.black,
+      );
+  static TextStyle get componentMedium => const TextStyle(
+        fontSize: 14,
+        fontWeight: FontWeight.w400,
+        color: Colors.black,
+      );
+  static TextStyle get componentSmall => const TextStyle(
         fontSize: 12,
         fontWeight: FontWeight.w600,
         color: Colors.black,
